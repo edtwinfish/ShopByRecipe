@@ -2,10 +2,19 @@
 ShoppingList
 	Menu
 		Recipe
+		-ID
+		-Description
 			IngredientByMeasure
+			-ID
+			-UnitOfMeasure
+			-Ingredient
 				
 
 Recipe
 	Ingredient
+	-ID
+	-Description
 		NutritionalInfo
 			UnitOfMeasure
+			-ID
+			-Description

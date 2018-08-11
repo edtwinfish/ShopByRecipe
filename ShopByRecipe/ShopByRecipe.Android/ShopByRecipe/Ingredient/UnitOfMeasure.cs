@@ -14,5 +14,7 @@ namespace ShopByRecipe.Droid.ShopByRecipe
 {
     class UnitOfMeasure
     {
+        int ID;
+        String Decription;
     }
 }
