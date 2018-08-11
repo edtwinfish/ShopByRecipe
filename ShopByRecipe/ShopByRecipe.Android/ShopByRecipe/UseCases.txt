@@ -1,0 +1,11 @@
+﻿
+ShoppingList
+	Menu
+		Recipe
+			IngredientByMeasure
+				
+
+Recipe
+	Ingredient
+		NutritionalInfo
+			UnitOfMeasure

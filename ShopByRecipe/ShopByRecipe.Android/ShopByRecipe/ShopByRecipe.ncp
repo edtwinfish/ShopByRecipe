@@ -1,0 +1,71 @@
+<Project>
+  <Name>ShopByRecipe</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ShopByRecipe</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Recipe</Name>
+        <Access>Public</Access>
+        <Location left="63" top="29" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int ID</Member>
+        <Member type="Field">String Description</Member>
+        <Member type="Field">IngredientByMeasure[] Ingredients</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Ingredient</Name>
+        <Access>Public</Access>
+        <Location left="325" top="286" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int ID</Member>
+        <Member type="Field">String Desription</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>UnitOfMeasure</Name>
+        <Access>Public</Access>
+        <Location left="505" top="286" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Menu</Name>
+        <Access>Public</Access>
+        <Location left="44" top="816" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ShoppingList</Name>
+        <Access>Public</Access>
+        <Location left="743" top="18" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NutritionalInfo</Name>
+        <Access>Public</Access>
+        <Location left="727" top="286" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IngredientByMeasure</Name>
+        <Access>Public</Access>
+        <Location left="325" top="29" />
+        <Size width="260" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
